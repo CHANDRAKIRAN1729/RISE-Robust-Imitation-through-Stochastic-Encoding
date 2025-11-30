@@ -215,29 +215,6 @@ python test_integration.py --cvae models/cvae_best.pth --use-generated --episode
 - OpenCV (optional, for image processing)
 - Torchmetrics (optional, for SSIM)
 
-## Citation
-
-```bibtex
-@misc{rise2025,
-  title={RISE: Risk-aware Imitation with Safety Encoding and Trajectory-Conditioned Image Generation},
-  author={RISE Project},
-  year={2025}
-}
-```
-
-## Future Work
-
-- [ ] GAN-based image generation for sharper visuals
-- [ ] Multi-view trajectory→image generation
-- [ ] Temporal video generation (trajectory sequences → video)
-- [ ] Behavior cloning training for vision-enhanced policy
-- [ ] Real-world sim-to-real transfer experiments
-- [ ] Object detection-based semantic consistency evaluation
-- [ ] 3D scene generation from trajectories
-
-## License
-
-MIT License
 
 ## Acknowledgments
 
