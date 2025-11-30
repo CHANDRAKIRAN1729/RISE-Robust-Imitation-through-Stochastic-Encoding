@@ -1,0 +1,17 @@
+python3 expert_data_generator.py
+
+python3 VAE_Policy/rise.py --data dataset/expert_data.pkl --vae-epochs 30 --policy-epochs 50 --latent-samples 5
+
+python3 VAE_Policy/simulation.py --episodes 100 --max-steps 300 --out simulation_results.mp4 --csv simulation_log.csv
+
+python3 Behavior_Cloning/train_pc_bc.py --data dataset/expert_data.pkl --epochs 50 --save models/pc_bc_policy.pth
+
+python3 Behavior_Cloning/simulation_pc_bc.py --policy models/pc_bc_policy.pth --episodes 100 --max-steps 300 --out simulation_pc_bc_results.mp4
+
+cd /home/chandrakiran/Projects/RISE/ImageGen
+
+# Automated (recommended)
+./run_pipeline.sh
+
+# Manual verification
+python test_components.py

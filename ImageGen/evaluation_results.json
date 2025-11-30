@@ -1,0 +1,25 @@
+{
+  "model_checkpoint": "ImageGen/models/cvae_best.pth",
+  "dataset": "trajectory_image_dataset.pkl",
+  "num_samples_evaluated": 300,
+  "image_quality": {
+    "mse_mean": 0.006620020354166627,
+    "mse_std": 0.0005646853785924467,
+    "psnr_mean": 21.806932644059568,
+    "psnr_std": 0.3657191796988264,
+    "ssim_mean": 0.8946780482927958,
+    "ssim_std": 0.002847164980853448,
+    "num_samples": 300
+  },
+  "semantic_consistency": {
+    "obstacle_position_error": null,
+    "robot_position_error": null,
+    "note": "Requires object detector for full evaluation"
+  },
+  "model_info": {
+    "epoch": 99,
+    "val_loss": 0.00576066111938821,
+    "latent_dim": 128,
+    "kld_weight": 0.001
+  }
+}
