@@ -1,0 +1,16 @@
+# Large data files
+ImageGen/trajectory_image_dataset.pkl
+dataset/*.pkl
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+.vscode/
+
+# Large temporary files
+*.tmp
+*.log
