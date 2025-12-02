@@ -679,5 +679,3 @@ finetune:  Success ~84-86%
 2. **Learns richer representations**: Extracts unicycle state from images while leveraging explicit obstacle information
 3. **Achieves better performance**: 86% success rate vs 75-85% for obstacle-only baseline
 4. **Enables future extensions**: Architecture can be adapted for pure vision-based deployment by replacing obstacle parameters with vision-based detection
-
-**Key Insight**: The multimodal approach outperforms using obstacle parameters alone, demonstrating that visual information provides complementary safety-relevant features (e.g., unicycle orientation, spatial relationships) that improve navigation performance.
