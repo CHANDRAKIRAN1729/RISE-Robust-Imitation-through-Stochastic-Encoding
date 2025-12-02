@@ -664,7 +664,7 @@ finetune:  Success ~84-86%
 ❌ **Complex pipeline**: 6 training stages  
 ❌ **Computationally expensive**: Needs GPU, 2-3 hours training  
 ❌ **Large model**: 1.8M parameters  
-❌ **Still requires obstacle parameters**: Not purely vision-based (needs obstacle position/velocity)
+❌ **Still requires obstacle parameters**: Not purely vision-based (needs obstacle position/velocity)  
 ❌ **Real-world deployment requires obstacle detection**: Must extract $c$ from sensors/vision  
 ❌ **Indirect supervision**: Learns from rendered images, not real ones  
 ❌ **Sim-to-real gap**: Neural renderer may not match real camera characteristics  
